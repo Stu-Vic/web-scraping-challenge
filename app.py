@@ -11,8 +11,6 @@ app = Flask(__name__)
 
 
 
-
-
 # Route to render index.html template using data from Mongo
 @app.route('/')
 def home():
